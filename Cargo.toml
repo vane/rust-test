@@ -1,0 +1,14 @@
+[package]
+
+name = "helloworld"
+version = "0.0.1"
+authors = [ "Your name <michal@vane.pl>" ]
+
+[dependencies]
+
+rand="0.3.0"
+
+[[bin]]
+name = "helloworld"
+test = false
+doc = false
