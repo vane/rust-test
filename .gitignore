@@ -13,7 +13,7 @@
 /target/
 
 # custom
-
+Cargo.lock
 *.iml
 .DS_Store
 
