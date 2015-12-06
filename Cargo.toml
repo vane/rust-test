@@ -8,7 +8,11 @@ authors = [ "Your name <michal@vane.pl>" ]
 
 rand="0.3.0"
 
-[[bin]]
+[lib]
 name = "helloworld"
-test = false
-doc = false
+crate-type = ["dylib"]
+
+#[[bin]]
+#name = "helloworld"
+#test = false
+#doc = false
