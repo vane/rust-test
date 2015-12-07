@@ -4,7 +4,7 @@ __author__ = 'Michal Szczepanski'
 
 from ctypes import cdll
 
-lib = cdll.LoadLibrary('target/release/libhelloworld.dylib')
+lib = cdll.LoadLibrary('target/release/libtestlib.dylib')
 lib.process()
 
 print('ok')
